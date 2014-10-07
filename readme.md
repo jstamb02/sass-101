@@ -1,4 +1,0 @@
-PGP
-===
-
-Personalized Growth Plan
