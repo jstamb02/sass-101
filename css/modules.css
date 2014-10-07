@@ -1,0 +1,51 @@
+/* Background */
+
+.bkgd {
+  background: url(/images/nightsky3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Header */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main */
+
+main {
+  margin: 1em;
+}
+
+
+/* Flexbox */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.flex-item {
+  width: 30em;
+  height: 18em;
+}
+
+
+/* Article */
+
+article {
+  padding: 1em;
+  line-height: 1em;
+}
+
+/* Footer */
+
+footer {
+  margin: 2em;
+}

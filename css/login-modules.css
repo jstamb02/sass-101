@@ -1,0 +1,99 @@
+/* Background */
+
+.login {
+  background: url(/images/nightsky3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Header */
+
+header {
+  background: url(/images/logotextwhite.png) no-repeat;
+  background-position: center;
+  height: 10em;
+}
+
+/* Main */
+
+main {
+  margin: 1em;
+}
+
+/* Nav */
+
+.nav__login ul {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.nav__login ul li {
+  display: inline;
+  margin-right: 2em;
+}
+
+.nav__login ul li a {
+  color: #ffffff;
+}
+
+.nav__login ul li a:hover {
+  color: #99A6B2;
+  cursor: pointer;
+}
+
+/* Flexbox */
+
+.flex-container {
+  display: flex;
+  width: 80%;
+  margin: 1em auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #778899;
+}
+
+.flex-item {
+  margin: 1em auto;
+  width: 80%;
+}
+
+.flex-item__login {
+  margin: 1em auto;
+  width: 50%;
+  border: 1px solid red;
+}
+
+.flex-item__dash {
+  margin: 0.5em auto;
+  width: 40%;
+}
+
+.flex-item__figure {
+ margin: .5em auto;
+ width: 48%;
+ height: 5em;
+}
+
+/* Article */
+
+article {
+  padding: 1em;
+  line-height: 1em;
+}
+
+/* Dashboard */
+
+.info {
+  color: #000000;
+  padding: 1em;
+}
+
+figure {
+  background: #ffffff;
+  -moz-box-shadow:    0 0 .05em .05em #000;
+  -webkit-box-shadow: 0 0 .05em .05em #000;
+  box-shadow:         0 0 .05em .05em #000;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
