@@ -1,0 +1,62 @@
+// Type defaults
+$font_size: 12;
+
+$heading_1: 24;
+
+$line: $font-size *1.5;
+
+$primary_font_family: #{"Aller", sans-serif};
+$secondary_font-family: #{"Aller", sans-serif};
+$heading_font-family: #{"artifika", sans-serif};
+
+// Headings default arguments
+$heading_size: $heading_1;
+$heading_font_family: $heading_font_family;
+$heading_font_weight: normal;
+$heading_color: $alpha-primary;
+
+// Font importing
+
+@import url(http://fonts.googleapis.com/css?family=Artifika);
+
+//
+
+html {
+  font: em($font_size, ) $primary_font_family;
+  line-height: baseline($font_size);
+  color: $primary_text;
+  @media #{$mobile} {
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+  }
+}
+
+h1 {
+  font-size: $heading_1
+}
+
+
+
+font
+  font-style: normal
+  font-weight: normal
+
+font-Allen
+  font-family: 'Aller'
+  src: url('fonts/Aller/Aller_Rg.ttf') format('truetype')
+
+font-Allen__bold
+  font-family: 'Aller'
+  src: url('fonts/Aller/Aller_Bd.ttf') format('truetype')
+  font-weight: bold
+
+font-artifika
+  font-family: 'artifika'
+  src: url('fonts/artifika/Artifika-Regular.ttf') format('truetype')
+
+h1
+  font-family: 'artifika', serif
+  font-size: 2em
+  margin: 0.67em 0
+
+html
+  font-family: 'Aller', sans-serif
