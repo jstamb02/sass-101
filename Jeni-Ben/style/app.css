@@ -1,4 +1,5 @@
 /*
+<<<<<<< HEAD
 Error: Undefined variable: "$font-size".
         on line 2 of scss/components/_footer.scss
         from line 2 of scss/components/_manifest.scss
@@ -38,6 +39,34 @@ scss/app.scss:3
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `map'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
+=======
+Error: Invalid CSS after "  padding:": expected "{", was ""
+        on line 5 of scss/components/_footer.scss
+        from line 2 of scss/components/_manifest.scss
+        from line 3 of scss/app.scss
+
+1: footer
+2:   font-size:$font_size
+3:   border: 3em
+4:   padding:
+
+Backtrace:
+scss/components/_footer.scss:5
+scss/components/_manifest.scss:2
+scss/app.scss:3
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:1163:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:1099:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:1094:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:641:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:635:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:660:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:650:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:42:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:393:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:299:in `to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:313:in `block in visit_import'
+>>>>>>> 8d688c551f569c3d1006adf94f126de975083be8
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:88:in `block in with_import'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:88:in `with_import'
@@ -92,4 +121,8 @@ scss/app.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
+<<<<<<< HEAD
   content: "Error: Undefined variable: \"$font-size\".\A         on line 2 of scss/components/_footer.scss\A         from line 2 of scss/components/_manifest.scss\A         from line 3 of scss/app.scss\A \A 1: @import \"base/manifest\";\A 2: @import \"colors/manifest\";\A 3: @import \"components/manifest\";\A 4: @import \"forms/manifest\";\A 5: @import \"layout/manifest\";\A 6: @import \"typography/manifest\";"; }
+=======
+  content: "Error: Invalid CSS after \"  padding:\": expected \"{\", was \"\"\A         on line 5 of scss/components/_footer.scss\A         from line 2 of scss/components/_manifest.scss\A         from line 3 of scss/app.scss\A \A 1: footer\A 2:   font-size:$font_size\A 3:   border: 3em\A 4:   padding:"; }
+>>>>>>> 8d688c551f569c3d1006adf94f126de975083be8
