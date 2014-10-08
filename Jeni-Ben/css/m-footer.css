@@ -1,13 +1,11 @@
-.m-footer {
-  font-size: 1em;
+footer {
+  font-size: $font-size;
   border: 3em;
   padding: 0.5em 0 0 1em;
   border-radius: 1em;
-  background-color: #B80000;
   background-image: url(seattle.jpg);
-  background-blend-mode: multiply;
-  background-size: 100%;
-  background-position: center;
+  @include burn;
+  
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -16,12 +14,12 @@
   align-items: flex-end;
 }
 
-.m-footer-image {
+.footer-image {
   padding: 1em;
   width: 5em;
 }
 
-.m-footer-location {
+.footer-location {
   font-family: 'Aller', sans-serif;
   color:#FFF;
   display: inline-block;

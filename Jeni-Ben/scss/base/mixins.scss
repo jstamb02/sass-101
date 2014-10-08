@@ -1,0 +1,6 @@
+@mixin burn {
+	background-color: $alpha-primary;
+	background-blend-mode: multiply;
+	background-size: 100%;
+	background-position: center;
+}
