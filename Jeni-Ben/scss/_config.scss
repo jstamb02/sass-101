@@ -1,0 +1,26 @@
+// Type defaults
+$font_size: 12;
+
+$heading_1: 24;
+
+$line: $font-size *1.5;
+
+$primary_font_family: #{"Aller", sans-serif};
+$secondary_font-family: #{"Aller", sans-serif};
+$heading_font-family: #{"artifika", sans-serif};
+
+//colors
+$alpha-primary: #B80000;    //red
+
+$bravo-primary: #66CC00;    //bright-green
+
+$charlie-primary: #999900;  //olive-green
+
+$delta-primary: #fff; //white
+
+// Headings default arguments
+$heading_size: $heading_1;
+$heading_font_family: $heading_font_family;
+$heading_font_weight: normal;
+$heading_color: $alpha-primary;
+

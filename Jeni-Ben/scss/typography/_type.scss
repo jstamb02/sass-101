@@ -1,20 +1,3 @@
-// Type defaults
-$font_size: 12;
-
-$heading_1: 24;
-
-$line: $font-size *1.5;
-
-$primary_font_family: #{"Aller", sans-serif};
-$secondary_font-family: #{"Aller", sans-serif};
-$heading_font-family: #{"artifika", sans-serif};
-
-// Headings default arguments
-$heading_size: $heading_1;
-$heading_font_family: $heading_font_family;
-$heading_font_weight: normal;
-$heading_color: $alpha-primary;
-
 // Font importing
 @import url(http://fonts.googleapis.com/css?family=Artifika);
 
@@ -28,6 +11,6 @@ h1 {
   font-size: $heading_1;
 }
 
-a: hover {
-  color:$charlie-primary;
+a:hover {
+  color: $charlie-primary;
 }
