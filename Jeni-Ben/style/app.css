@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Artifika);
+h1 {
+  color: #B80000; }
+
+html {
+  font: em(12, 12) Aller, sans-serif; }
+
+h1 {
+  font-size: 24; }
+
+/*# sourceMappingURL=app.css.map */

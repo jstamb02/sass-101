@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAkBQ,4DAAoD;ACZ5D,EAAG;EACF,KAAK,EAPU,OAAO;;ADuBvB,IAAK;EACH,IAAI,EAAE,4BAAuC;;AAE/C,EAAG;EACD,SAAS,EAxBC,EAAE",
+"sources": ["../scss/typography/_type.scss","../scss/colors/_colors.scss"],
+"names": [],
+"file": "app.css"
+}
