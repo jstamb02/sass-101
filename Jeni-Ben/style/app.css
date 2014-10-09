@@ -12,14 +12,13 @@ body {
 main {
   width: 80%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; }
+
+.wrapper {
   text-align: center; }
 
 ul {
   list-style: none; }
-
-h1 {
-  color: #B80000; }
 
 html {
   font: em(12, 12) Aller, sans-serif; }
@@ -29,6 +28,9 @@ h1 {
 
 a:hover {
   color: #999900; }
+
+h1 {
+  color: #B80000; }
 
 .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10,
 .grid_11, .grid_12 {
@@ -124,21 +126,21 @@ footer {
   background-size: 100%;
   background-position: center;
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
-  align-items: flex-end; }
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center; }
 
 .footer-image {
   padding: 1em;
-  width: 5em; }
+  width: 5em;
+  margin-left: 60%; }
 
 .footer-location {
   font-family: Aller, sans-serif;
   color: #fff;
   display: inline-block;
-  padding-left: 0;
   text-align: left; }
 
 .socialmedia {
