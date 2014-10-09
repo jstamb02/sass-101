@@ -1,4 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Artifika);
+footer, header, main, nav {
+  display: block; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+ul {
+  list-style: none; }
+
 h1 {
   color: #B80000; }
 
@@ -10,6 +29,89 @@ h1 {
 
 a:hover {
   color: #999900; }
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10,
+.grid_11, .grid_12 {
+  width: 100%;
+  margin: 0 2% 1% 0;
+  float: left;
+  display: block; }
+
+.alpha {
+  margin-left: 0px; }
+
+.omega {
+  margin-right: 0px; }
+
+@media (min-width: 48em) {
+  .grid_1 {
+    width: 6.5%; }
+
+  .grid_2 {
+    width: 15%; }
+
+  .grid_3 {
+    width: 23.5%; }
+
+  .grid_4 {
+    width: 32%; }
+
+  .grid_5 {
+    width: 40.5%; }
+
+  .grid_6 {
+    width: 49%; }
+
+  .grid_7 {
+    width: 57.5%; }
+
+  .grid_8 {
+    width: 66%; }
+
+  .grid_9 {
+    width: 74.5%; }
+
+  .grid_10 {
+    width: 83%; }
+
+  .grid_11 {
+    width: 91.5%; }
+
+  .grid_12 {
+    width: 100%; }
+
+  .page-heading {
+    text-align: left; }
+
+  .m-navigation-list--item {
+    padding: 2em; } }
+form {
+  width: 100%; }
+
+form fieldset {
+  border: none;
+  margin-bottom: 0.625em; }
+
+form legend {
+  color: #66CC00;
+  font-size: 12; }
+
+form input {
+  width: 100%; }
+
+form textarea {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+form button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+form button:hover {
+  background-color: #999900; }
 
 footer {
   font-size: 12;
@@ -39,20 +141,11 @@ footer {
   padding-left: 0;
   text-align: left; }
 
-form {
-  width: 100%; }
+.socialmedia {
+  width: 25%;
+  border-radius: 10%; }
 
-form legend {
-  color: #66CC00;
-  font-size: 12; }
-
-form input {
-  width: 100%; }
-
-form textarea {
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+.name {
+  color: #B80000; }
 
 /*# sourceMappingURL=app.css.map */

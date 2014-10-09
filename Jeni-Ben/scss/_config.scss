@@ -26,3 +26,11 @@ $heading_color: $alpha-primary;
 
 // Form
 $form-width: 100%;
+
+// Grid
+$_columns: 12;
+$_column-width: 4.063em;
+$_gutter: 1.25em;
+
+$_width: $_columns * ($_column-width + $_gutter);
+
