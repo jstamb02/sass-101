@@ -4,8 +4,9 @@ footer{
   padding: 0.5em 0 0 1em;
   border-radius: 1em;
   background-image: url(/img/seattle.jpg);
+
   @include burn;
- 	display: flex;
+  display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
