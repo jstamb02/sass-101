@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Artifika);
 footer, header, main, nav {
   display: block; }
 
@@ -115,6 +114,29 @@ form button {
 form button:hover {
   background-color: #999900; }
 
+/* HEADER STYLES*/
+.page-heading {
+  text-align: center;
+  font-size: 1.4em;
+  padding-top: 0.5em;
+  text-transform: uppercase; }
+
+/* NAV STYLES*/
+.m-nav {
+  text-transform: uppercase;
+  padding-top: 1em;
+  line-height: 1.5em;
+  text-align: center; }
+
+.m-navigation-list--link {
+  text-decoration: none; }
+
+.m-navigation-list--item {
+  font-family: Aller, sans-serif, sans-serif;
+  display: inline;
+  padding: 0.5em;
+  font-size: 1em; }
+
 footer {
   font-size: 12;
   border: 3em;
@@ -149,5 +171,22 @@ footer {
 
 .name {
   color: #B80000; }
+
+.m-contact-form--name, .m-contact-form--email {
+  width: 100%; }
+
+.m-contact-form--btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.m-contact-form--comment {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.m-contact-form {
+  width: 100%; }
 
 /*# sourceMappingURL=app.css.map */
