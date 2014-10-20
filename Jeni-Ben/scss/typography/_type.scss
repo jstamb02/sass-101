@@ -6,8 +6,11 @@ html {
 
 h1 {
   font-size: $heading_1;
+  color: $alpha-primary;
 }
 
 a:hover {
   color: $charlie-primary;
 }
+
+

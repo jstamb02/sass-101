@@ -12,15 +12,13 @@
   padding-top: 1em;
   line-height: 1.5em;
   text-align: center;
+  &-list--link {
+    text-decoration: none;
+  }
+  &-list--item {
+   display: inline;
+    padding: 0.5em;
+    font-size: 1em;
+  }
 }
 
-.m-navigation-list--link {
-  text-decoration: none;
-}
-
-.m-navigation-list--item {
-  font-family:$primary_font_family, sans-serif;
-  display: inline;
-  padding: 0.5em;
-  font-size: 1em;
-}

@@ -1,35 +1,26 @@
 form {
   width: $form-width;
-}
-
-form fieldset {
-  border: none;
-  margin-bottom: 0.625em;
-}
-
-form legend {
-  color: $bravo-primary;
-  font-size: $font_size;
-}
-
-form input {
-  width: $form-width;
-}
-
-form textarea {
-  width: $form-width;
-  display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-form button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-form button:hover {
-  background-color:$charlie-primary;
+  &-fieldset {
+    border:none;
+    margin-bottom: 0.625em;
+  }
+  &-legend {
+    color: $bravo-primary;
+    font-size: $font_size;
+  }
+  &-input {
+    margin-bottom: 0.386em;
+  }
+  &-textarea {
+    display: block;
+  }
+  &-button {
+    display: block;
+    &:hover {
+      background-color:$charlie-primary;
+    }
+  }
 }
 

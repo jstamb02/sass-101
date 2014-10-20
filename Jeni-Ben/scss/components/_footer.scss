@@ -1,29 +1,28 @@
 footer{
+  @include burn;
   font-size: $font-size;
   border: 3em;
   padding: 0.5em 0 0 1em;
   border-radius: 1em;
   background-image: url(/img/seattle.jpg);
-  @include burn;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
   align-items: center;
+  &-image {
+    padding: 1em;
+    width: 5em;
+    margin-left: 60%;
+  }
+  &-location {
+    color: $delta-primary;
+    display: inline-block;
+    text-align: left;
+  }
 }
 
-.footer-image {
-  padding: 1em;
-  width: 5em;
-  margin-left: 60%;
-}
 
-.footer-location {
-  font-family: $primary_font_family;
-  color: $delta-primary;
-  display: inline-block;
-  text-align: left;
-}
 
 

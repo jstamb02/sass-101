@@ -1,0 +1,12 @@
+// Wrapper mixin
+@mixin wrapper ($columns: $_columns, $center:true, $_subtract:0){
+  $getWrapperWidth: get_width($columns, false);
+  $wrapperWidth: $getWrapperWidth - $_subtract;
+  width:$wrapperWidth;
+  @if $center == true
+  {
+    margin-left:auto;
+    margin-right:auto;
+  }
+  @include clearfix;
+}
